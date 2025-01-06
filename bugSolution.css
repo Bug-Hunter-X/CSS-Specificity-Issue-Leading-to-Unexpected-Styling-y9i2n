@@ -1,0 +1,11 @@
+/* bugSolution.css */
+.container p {
+  color: blue; /* More specific selector to override the general p selector */
+}
+p {
+  color: red;
+}
+/* Alternative solution using !important (use with caution!): */
+/* .container p {
+  color: blue !important;
+} */
